@@ -1,0 +1,50 @@
+.sign-in {
+    display: inline-block;
+    width: 45%;
+    // fashion
+    align-items: center;
+    margin-left: 1rem;
+    padding-left: 3rem;
+
+    .form {
+        margin:2rem 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+.sign-in label{
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    
+}
+.sign-in input {
+    width: 300px;
+    display: inline-block;
+    border: none;
+    height: 40px;
+    padding-left: 10px;
+    background: #eee;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    margin: 1.5rem 0 0;
+    padding: 10px;
+    width: 300px;
+    // height: 35px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgba(123, 122, 124, 0.918);
+}
+
+.google-btn{
+    background: rgb(60, 60, 226);
+}
+
+.btn-register:hover{
+    background: #000;
+    transition: background 800ms ease;
+}
